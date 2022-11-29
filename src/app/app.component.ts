@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'frontendang';
+
+  onSubmit(value: any){  
+    console.log('Save: ', value);
+  }
+
 }

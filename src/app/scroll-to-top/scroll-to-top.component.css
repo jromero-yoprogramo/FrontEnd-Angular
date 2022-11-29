@@ -1,0 +1,23 @@
+
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 0.5%;
+    right: 3%;
+    opacity: 0;
+    transition: all .2s ease-in-out;
+   
+    
+        
+   }
+   .show-scrollTop {
+    opacity: 1;
+    transition: all .2s ease-in-out;
+           
+   }
+
+   .flecha-arriba {
+    width: 3rem;
+    height: 3rem;
+    
+  }
